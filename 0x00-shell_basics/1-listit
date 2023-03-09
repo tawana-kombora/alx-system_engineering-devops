@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | fmt
+ls -1
