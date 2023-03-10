@@ -1,4 +1,3 @@
 #!/bin/bash
-STDIN=$(stat --printf=%a olleh|cut -f 1 -d '%'|grep '[[:digit:]]')
-mod=$STDIN
+mod=$(stat --printf=%a olleh|cut -f 1 -d '%'|grep '[[:digit:]]')
 chmod $mod hello
