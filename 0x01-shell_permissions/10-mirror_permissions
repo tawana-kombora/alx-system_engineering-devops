@@ -1,2 +1,2 @@
 #!/bin/bash
-mod=$(stat --printf=%a olleh|cut -f 1 -d '%'|grep '[[:digit:]]');chmod $mod hello
+chmod $(stat --printf=%a olleh|cut -f 1 -d '%'|grep '[[:digit:]]') hello
