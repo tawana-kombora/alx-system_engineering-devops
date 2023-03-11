@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -r $(ls -ha | grep -P "~$+")
+rm $(ls -a | grep -P "~$+")
