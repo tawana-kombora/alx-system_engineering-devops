@@ -1,2 +1,2 @@
 #!/bin/bash
-$(mv -n ./*[[:upper:]]*/ -t /tmp/u)
+mv -n $(ls -ha | grep -P "^[A-Z]+") /tmp/u
