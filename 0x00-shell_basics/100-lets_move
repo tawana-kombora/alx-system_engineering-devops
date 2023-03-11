@@ -1,2 +1,2 @@
 #!/bin/bash
-mv $(ls -ah ./*[[:upper:]]* | cut -f 1 -d " " ) /tmp/u
+mv $(ls -al ./*[[:upper:]]* | cut -f 1 -d " " ) /tmp/u
