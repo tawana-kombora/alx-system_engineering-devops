@@ -1,2 +1,2 @@
 #!/bin/bash
-rm \$\(ls -ah | grep "~$\*"\)
+rm -dr $(ls -ah | grep "~$\*")
